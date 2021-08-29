@@ -6,6 +6,6 @@ A: Seems like this is an issue depending on the keyboard layout used. For me (US
   \<Shift>\<Super>parenleft --> \<Shift>\<Super>9\
   \<Shift>\<Super>parenright --> \<Shift>\<Super>0
   
-Q: How to include mailbox.org in Rambox and add auto-login?
+Q: How to include mailbox.org in Rambox and add auto-login?\
 A: // Auto login\
 document.getElementsByName("login-username-input")[0].value = "EMAIL-ADDRESS-HERE"; document.getElementsByName("login-password-input")[0].value = "PASSWORD-HERE"; document.getElementById("login-login-button").click();
