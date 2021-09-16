@@ -12,5 +12,5 @@ document.getElementsByName("login-username-input")[0].value = "EMAIL-ADDRESS-HER
 
 Q: How to change Anki from Latex to MathJax?\
 A: // Use "Find and Replace"\
-Find: \[\$\$\] and Replace With: /( and Find: \[/\$\$\] and Replace With: /)\
+Find: \\[\\$\\$\\] and Replace With: /( and Find: \\[/\\$\\$\\] and Replace With: /)\
 don't forget to check "Treat input as regular expression"
