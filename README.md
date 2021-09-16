@@ -11,6 +11,6 @@ A: // Auto login\
 document.getElementsByName("login-username-input")[0].value = "EMAIL-ADDRESS-HERE"; document.getElementsByName("login-password-input")[0].value = "PASSWORD-HERE"; document.getElementById("login-login-button").click();
 
 Q: How to change Anki from Latex to MathJax?\
-A: // Use "Find and Replace"\
+A: Use "Find and Replace"\
 Find: \\[\\$\\$\\] and Replace With: /( and Find: \\[/\\$\\$\\] and Replace With: /)\
 don't forget to check "Treat input as regular expression"
